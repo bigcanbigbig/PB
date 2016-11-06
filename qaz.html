@@ -11,23 +11,23 @@
 	width: 100px;
 	height: 100px;
 }
-.box{
+#box{
 	width: 200px;
 	height: 200px;
-	color: purple;
+	background: purple;
 }
 
 	</style>
 
 	<script>
 		function color(){
-			document.document.getElementsByClassName('box').style.color="gray";
+			document.getElementById('box').style.backgroundColor="gray";
 		}
 	</script>
 
 </head>
 <body>
 	<button class="push" onclick="color()">按我</button>
-	<div class="box"></div>
+	<div id="box"></div>
 </body>
 </html>
